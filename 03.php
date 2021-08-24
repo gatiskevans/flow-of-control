@@ -1,3 +1,8 @@
 <?php
+    $number = readline("Enter a positive number: ");
 
-    echo strlen(readline("Enter a number: "));
+    if($number >= 0){
+        echo strlen($number);
+    } else {
+        echo "$number is not a positive number.";
+    }
